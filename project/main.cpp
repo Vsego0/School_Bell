@@ -28,7 +28,7 @@ int main()
             break;
         case 2:
             file.time.clear();
-            cout << "¬ведите количество новых таймигов\n";
+            cout << "¬ведите количество новых таймингов\n";
             cin >> size;
             file.write(size);
             break;
@@ -37,7 +37,6 @@ int main()
             break;
         }
     }    
-    cout << "signal on\n";
     signal.on();
     return 0;
 }
